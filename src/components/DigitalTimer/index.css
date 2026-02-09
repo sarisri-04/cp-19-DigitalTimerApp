@@ -1,0 +1,109 @@
+/* Write your CSS here */
+.app-container {
+  background-image: linear-gradient(to right, #ffffff, #cffcf1, #defafe);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: Roboto;
+}
+
+.heading {
+  margin-top: 100px;
+  color: #1e293b;
+}
+
+.timer-container {
+  display: flex;
+  background-color: transparent;
+  padding: 50px;
+  /* border-radius: 12px;
+  box-shadow: 0px 4px 16px 0px #bfbfbf; */
+}
+
+.timer-display-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/digital-timer-elapsed-bg.png');
+  background-position: center;
+  background-size: cover;
+  height: 500px;
+  width: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.timer-display {
+  background-color: #ffffff;
+  border-radius: 100%;
+  height: 180px;
+  width: 180px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.timer-text {
+  color: #00d9f5;
+  margin: 0;
+}
+
+.timer-status {
+  color: #0f172a;
+  margin: 0;
+  font-weight: 500;
+}
+
+.controls-container {
+  margin-left: 40px;
+}
+
+.start-reset-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.control-btn {
+  background-color: transparent;
+  border: none;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.control-icon {
+  width: 20px;
+  margin-right: 8px;
+}
+
+.timer-limit-container {
+  text-align: center;
+}
+
+.limit-text {
+  color: #1e293b;
+  font-weight: 500;
+}
+
+.limit-controls {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.limit-btn {
+  background-color: transparent;
+  border: none;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.limit-value {
+  background-image: linear-gradient(to right, #00d9f5, #defafe, #00d9f5);
+  padding: 10px 20px;
+  margin: 0 10px;
+  height: 70px;
+  width: 160px;
+  border-radius: 6px;
+}
